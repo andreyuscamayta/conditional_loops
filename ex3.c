@@ -2,11 +2,15 @@
 
 int main(){
   int times;
-  scanf("%d",&times);//leitura de numero
+  scanf("%d",&times);
   for(int i = 0;i<times;i++){
-    /*
-    Programe seu codigo aqui
-    */
-  }
+    int num;
+    scanf("%d",&num);
+    do{
+      printf("#");
+      num = num%2 == 0 ? num-1 : num/2;
+    }while(num > 0);
+    printf("\n");
+  }  
   return 0;
 }

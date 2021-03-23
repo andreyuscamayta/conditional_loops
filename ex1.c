@@ -1,14 +1,8 @@
 #include <stdio.h>
 
 int main(){
-  int times;
-  int num1, num2;
-  scanf("%d",&times);//leitura de numero
-  for(int i = 0;i<times;i++){        
-    scanf("%d %d",&num1,&num2); //leitura de num1 e num2
-    /*
-    Programe seu codigo aqui
-    */
-  }
+  printf("\t#SCRATCH#%s\n","XXXXXXX");
+  for(int i = 1;i<13;i++)
+    printf("\t%d x %d = %d\n",i,3,i*3);
   return 0;
 }
